@@ -223,6 +223,9 @@ PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="OptionsCompositeControl.resx">
+      <DependentUpon>OptionsCompositeControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
