@@ -127,7 +127,7 @@ namespace Microsoft.Samples.VisualStudio.IDE.OptionsPage
         /// </summary>
         private void OnChooseImage(object sender, EventArgs e)
         {
-            var openImageFileDialog = new OpenFileDialog();
+            var openImageFileDialog = new OpenFileDialog() { Filter= "Image Files (*.BMP;*.JPG;*.GIF)|*.BMP;*.JPG;*.GIF|All files (*.*)|*.*" };
 
             if (openImageFileDialog.ShowDialog() == DialogResult.OK)
             {
